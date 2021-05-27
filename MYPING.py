@@ -1,10 +1,10 @@
 import os
 
+# Specifying IP dictionary list to ping
 Servers = \
-    {"Server1": '192.168.16.10',
-     "Server2": '192.168.16.11'
+    {"Server1": '192.168.0.10',
+     "Server2": '192.168.0.11'
      }
-
 
 ExternalHosts = \
     {"8.8.8.8": 'Google 1',
